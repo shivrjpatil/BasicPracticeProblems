@@ -12,6 +12,7 @@ namespace BasicPractice
         static void Main(string[] args)
         {
             Console.WriteLine("enter the number to choose the program");
+            Console.WriteLine("1.Prime Number of a given range \n2.Factorial of given number \n3.Fibonacci series of given number ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {

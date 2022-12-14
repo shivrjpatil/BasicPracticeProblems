@@ -15,12 +15,16 @@ namespace BasicPractice
             int c=0;
             Console.WriteLine(a);
             Console.WriteLine(b);
+            Console.WriteLine("the fibonacci series of given number " + num + " is ");
+
             for (int i = 0; i < num; i++)   
             {
                 c = a + b;
                 a = b;
                 b = c;
-                Console.WriteLine(c);
+               
+                Console.Write(c);
+
 
             }
 

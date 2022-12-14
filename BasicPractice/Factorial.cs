@@ -10,13 +10,13 @@ namespace BasicPractice
     {
         public void Fact(int num)
         {
-            int fact=1;
+            int fact = 1;
             for (int i = 1; i <= num; i++)
             {
                 fact = fact * i;
             }
-
-                Console.WriteLine(fact);
+            Console.WriteLine("the factorial of given number " + num + " is "  +fact);
+               
             
         }
     }

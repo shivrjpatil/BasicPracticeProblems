@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,6 +23,7 @@ namespace BasicPractice
                 }
                 if (count == 2)
                 {
+                    Console.WriteLine("prime numbers between 1 TO 100");
                     Console.WriteLine(num);
                 }
 
